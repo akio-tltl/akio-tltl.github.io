@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Balaiada</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Digital Garden</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#revolta">#revolta</a></p>
+<p><img src="/img/user/Pasted%20image%2020250905144846.png" alt="Pasted image 20250905144846.png"><br>
+<em>Cabeçalho do jornal Bem Te Vi, que representava a população insatisfeita com os abusos do governo, dos comerciantes portugueses e dos senhores de terra. Domínio público, Biblioteca Nacional Digital</em>. (Retirado de: <a href="https://multi.rio/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-prov%c3%adncia-do-maranh%c3%a3o-entre-1838-e-1841" target="_blank" class="external-link">https://multi.rio/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-província-do-maranhão-entre-1838-e-1841</a>)</p>
+<p><strong>Localização</strong><br>
+A Balaiada aconteceu principalmente no Maranhão, entre 1838 e 1841, mas também se espalhou para áreas vizinhas, como o Piauí. A revolta ganhou força no interior da província, em cidades como Caxias e Itapecuru-Mirim, locais marcados pela crise econômica do algodão e pela exploração das camadas populares. Esse caráter interiorano deu à Balaiada um perfil de movimento popular e regional contra as elites locais e o poder imperial.<br><br>Tags: <a class="internal-link is-unresolved" href="/404" target="">Nordeste</a><br>Fonte: <a href="https://multirio.rio.rj.gov.br/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-prov%C3%ADncia-do-maranh%C3%A3o-entre-1838-e-1841" target="_blank" class="external-link">https://multirio.rio.rj.gov.br/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-prov%C3%ADncia-do-maranh%C3%A3o-entre-1838-e-1841</a></p>
+<p><strong>Principais grupos</strong><br>
+A Balaiada reuniu diferentes camadas populares que viviam à margem da política e da economia do Maranhão. Participaram vaqueiros, pequenos lavradores, artesãos e sertanejos pobres, além de um grande número de escravizados fugidos que viram na revolta uma chance de liberdade. Essa diversidade de grupos, unidos contra os abusos das elites locais, deu ao movimento um caráter fortemente popular e fez dele uma das revoltas mais amplas e difíceis de controlar do período regencial.<br><br>Tags: <a class="internal-link is-unresolved" href="/404" target="">Escravizados</a> x <a class="internal-link" target="" data-note-icon="undefined" href="/grupos/populares/">Populares</a><br>
+Fontes: <a href="https://www.memorialvirtual.com/balaiada.html" target="_blank" class="external-link">https://www.memorialvirtual.com/balaiada.html</a><br>
+<a href="https://www.historia.uff.br/impressoesrebeldes/revista/indestrutivel-balaiada/" target="_blank" class="external-link">https://www.historia.uff.br/impressoesrebeldes/revista/indestrutivel-balaiada/</a>](<a href="https://www.historia.uff.br/impressoesrebeldes/revista/indestrutivel-balaiada/" target="_blank" class="external-link">https://www.historia.uff.br/impressoesrebeldes/revista/indestrutivel-balaiada/</a>)</p>
+<p><strong>Causas e objetivos principais</strong><br>
+A Balaiada foi resultado de uma combinação de fatores: a crise econômica do algodão, que afetava o Maranhão; as péssimas condições de vida da população pobre; os abusos das elites locais ligadas ao poder imperial; e os constantes conflitos políticos entre liberais e conservadores. Esse cenário alimentou a insatisfação de vaqueiros, sertanejos e escravizados, que se viram cada vez mais explorados e sem perspectivas de mudança.<br><br>Os revoltosos buscavam principalmente melhores condições de vida e maior justiça social, reagindo contra o domínio das elites e a repressão imposta pelo governo. Muitos também desejavam liberdade, especialmente os escravizados que se uniram ao movimento. Embora não houvesse um projeto político unificado, a Balaiada expressava a vontade de romper com a exploração e conquistar autonomia local, mostrando a força das camadas populares no cenário regencial.<br><br>Tag: <a class="internal-link" target="" data-note-icon="undefined" href="/causa-objetivos/condicoes-de-vida/">Condições de vida</a> x <a class="internal-link" target="" data-note-icon="undefined" href="/causa-objetivos/autonomia-regional/">Autonomia regional</a><br>Fontes: <a href="https://www.memorialvirtual.com/balaiada.html" target="_blank" class="external-link">https://www.memorialvirtual.com/balaiada.html</a><br><a href="https://www.historia.uff.br/impressoesrebeldes/revista/indestrutivel-balaiada/" target="_blank" class="external-link">https://www.historia.uff.br/impressoesrebeldes/revista/indestrutivel-balaiada/</a>|</p>
+<p><strong>Principais lideranças</strong><br>
+<a class="internal-link" target="" data-note-icon="undefined" href="/liderancas/manoel-francisco-dos-anjos-ferreira/">Manoel Francisco dos Anjos Ferreira</a><br>
+<a class="internal-link" target="" data-note-icon="undefined" href="/liderancas/raimundo-gomes/">Raimundo Gomes</a><br>
+Negro Cosme (<a class="internal-link" target="" data-note-icon="undefined" href="/liderancas/cosme-bento-das-chagas/">Cosme Bento das Chagas</a>)<br><br><br>
+<img src="/img/user/Pasted%20image%2020250905144715.png" alt="Pasted image 20250905144715.png"><br>
+<em>Estátua em homenagem ao vaqueiro Raimundo Gomes Vieira, um dos líderes populares da Balaiada, na cidade de Caxias, no Maranhão. Foto de Kristiano Simas. Uso amparado pela Lei 9610, Agência Assembleia</em>. (Retirado de: <a href="https://multi.rio/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-prov%c3%adncia-do-maranh%c3%a3o-entre-1838-e-1841." target="_blank" class="external-link">https://multi.rio/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-província-do-maranhão-entre-1838-e-1841.</a>)</p>
+<p><strong>Desfecho</strong><br>
+A Balaiada chegou ao fim em 1841, quando as tropas imperiais, comandadas por Luís Alves de Lima e Silva (que mais tarde se tornaria o Duque de Caxias), conseguiram sufocar a revolta no Maranhão. Para encerrar o conflito, o governo adotou uma estratégia dupla: ao mesmo tempo em que reprimiu com violência, também ofereceu anistia para parte dos participantes, o que levou líderes como Raimundo Gomes a se render. Outros, porém, como Negro Cosme, foram presos, julgados e executados. Assim, a revolta terminou com milhares de mortos e deixou como marca o protagonismo das camadas populares e escravizadas na luta contra as injustiças sociais da época.</p>
+<p>Tag: <a class="internal-link" target="" data-note-icon="undefined" href="/desfechos/morte/">Morte</a> x <a class="internal-link" target="" data-note-icon="undefined" href="/desfechos/anistia/">Anistia</a> x <a class="internal-link is-unresolved" href="/404" target="">Prisão</a><br>Fonte: <a href="https://multirio.rio.rj.gov.br/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-prov%C3%ADncia-do-maranh%C3%A3o-entre-1838-e-1841" target="_blank" class="external-link">https://multirio.rio.rj.gov.br/index.php/historia-do-brasil/brasil-monarquico/9929-a-balaiada-a-prov%C3%ADncia-do-maranh%C3%A3o-entre-1838-e-1841</a>|</p>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
